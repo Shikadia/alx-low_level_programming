@@ -12,10 +12,10 @@ int main(void)
 	while (charValue < 123)
 	{
 		if (charValue != 101 && charValue != 113)
-		{	
+		{
 			putchar(charValue);
-			charValue++;
 		}
+		charValue++;
 	}
 	putchar('\n');
 	return (0);
