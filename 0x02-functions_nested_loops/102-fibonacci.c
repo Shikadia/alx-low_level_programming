@@ -12,14 +12,14 @@ int main(void)
 	long num1 = 0;
 	long num2 = 1;
 	long sum = 0;
-	while ( n < 50)
+	while ( x < 50)
 	{
 		sum = num1 + num2;
 		printf("%ld", sum);
 
 		num1 = num2;
 		num2 = sum;
-		if ( == 49)
+		if ( x == 49)
 			printf("\n");
 		else
 			printf(", ");
