@@ -16,5 +16,6 @@ int _isalpha(int c);
 int print_sign(int x);
 int _abs(int x);
 int print_last_digit(long x);
+void jack_bauer(void);
 
 #endif
