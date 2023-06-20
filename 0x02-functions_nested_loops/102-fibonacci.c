@@ -24,6 +24,7 @@ int main(void)
 			printf("\n");
 		else
 			printf(", ");
+		x++;
 	}
 	return (0);
 }
