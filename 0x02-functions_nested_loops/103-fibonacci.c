@@ -8,12 +8,14 @@
 int main(void)
 {
 	long num = 0;
-	long x = 0;
-	long y = 1;
+	long x = 1;
+	long y = 2;
 	long sum = 0;
 
 	while (num < 4000000)
 	{
+		if (num % 2 != 0)
+			continue;
 		sum = x + y;
 		printf("%ld", sum);
 
