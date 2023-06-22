@@ -5,7 +5,7 @@
  *
  * Return: void
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int x;
 
@@ -15,8 +15,8 @@ void print_numbers(void)
 		if (x != 2 && x != 4)
 		{
 			_putchar(x + '0');
-			x++;
 		}
+		x++;
 	}
 	_putchar('\n');
 }
