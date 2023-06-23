@@ -8,10 +8,11 @@
 */
 void print_number(int n)
 {
-	int buffer;
+	int z;
+	unsigned int buffer;
 
 	int multiplier = 1;
-	int x = n;
+	unsigned int x = n;
 
 	if (n < 0)
 	{
@@ -26,9 +27,10 @@ void print_number(int n)
 		buffer /= 10;
 	}
 
-	while (x >= 0 && multiplier > 0)
+	while (multiplier > 0)
 	{
-		_putchar((x / multiplier) + '0');
+		z = x / multiplier;
+		_putchar(z + '0');
 		x %= multiplier;
 		multiplier /= 10;
 	}
