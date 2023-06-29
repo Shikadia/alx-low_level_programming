@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-* *_strcat - Concatenates two strings
+* *_strncat - Concatenates two strings
 * @dest: The pointer to the destination buffer to append
 * @src: The source string to concatenate from
 * @n: number of bytes to concatinate

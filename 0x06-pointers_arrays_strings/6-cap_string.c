@@ -12,7 +12,7 @@ char *cap_string(char *str)
 
 	if (str[0] >= 'a' && str[0] <= 'z')
 		str[0] = toupper(str[0]);
-	
+
 	i = 1;
 	while (str[i] != '\0')
 	{

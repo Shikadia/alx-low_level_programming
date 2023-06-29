@@ -17,7 +17,7 @@ char *leet(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		j =0;
+		j = 0;
 		while (j < 10)
 		{
 			if (str[i] == letter_compare[j])
