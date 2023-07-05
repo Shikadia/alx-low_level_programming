@@ -22,7 +22,7 @@ int is_palindrome(char *s)
 /**
 * _palindrome - Checks if a string is a palindrome
 * @s: Pointer to a string to check
-* @s: pointer to the last part of the string
+* @x: pointer to the last part of the string
 * @length: half of the actual length
 * Return: returns (1), (0)
 */
