@@ -25,7 +25,7 @@ int _is_prime(int num, int x)
 {
 	if (x * x > num)
 		return (1);
-	if ( num % x == 0)
+	if (num % x == 0)
 	{
 		if (num != x)
 			return (0);

@@ -16,7 +16,7 @@ int is_palindrome(char *s)
 	length = strlen(s);
 	end_index = length - 1;
 
-	return (_palindrome(s, s + end_index, length/2));
+	return (_palindrome(s, s + end_index, length / 2));
 }
 
 /**
@@ -31,7 +31,7 @@ int _palindrome(char *s, char *x, int length)
 	if (length == 0)
 		return (1);
 	else if (*s == *x)
-		return (_palindrome(s + 1, x - 1, length -1));
+		return (_palindrome(s + 1, x - 1, length - 1));
 	else
 		return (0);
 }
