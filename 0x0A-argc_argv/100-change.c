@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i, cents, change;
 
-	int coins[] = {25, 20, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
