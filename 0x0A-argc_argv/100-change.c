@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	
+
 	change = 0;
 	cents = atoi(argv[1]);
 
