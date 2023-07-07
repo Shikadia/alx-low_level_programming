@@ -15,11 +15,6 @@ int main(int argc, char *argv[])
 	int sum;
 	int num;
 
-	if (argc <= 1)
-	{
-		printf("Error\n");
-		return (1);
-	}
 
 	i = 1;
 	while (i < argc)
