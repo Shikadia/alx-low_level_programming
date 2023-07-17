@@ -40,7 +40,7 @@ char *str_cpy(char *copy, char *src)
 	{
 		copy[i] = src[i];
 		i++;
-	
+
 	}
 	copy[i] = '\0';
 
