@@ -3,9 +3,9 @@
 
 /**
   * struct dog - A created for an entity dog
-  * @name - dog's name
-  * @age - dog's age
-  * @owner - dog's owner
+  * @name: dog's name
+  * @age: dog's age
+  * @owner: dog's owner
   */
 struct dog
 {
