@@ -9,7 +9,7 @@ void print_all(const char * const format, ...);
 
 
 /**
- * struct format - A struct type defining a format
+ * struct fmt - A struct type defining a format
  * @id: The format identifier
  * @id_fun: The identifier's function
  */
