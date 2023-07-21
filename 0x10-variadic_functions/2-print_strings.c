@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	while (i < n)
 	{
 		buffer = va_arg(strs, char *);
-		if (strs == NULL)
+		if (strs == NULL || buffer == NULL)
 			printf("(nil)");
 		else
 			printf("%s", buffer);
